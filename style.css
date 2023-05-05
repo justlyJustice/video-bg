@@ -77,3 +77,38 @@ hr {
 .creator-container h2 {
   font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .overlay-text {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .overlay-text h1 {
+    font-size: 30px;
+  }
+
+  .overlay-text h3 {
+    padding: 10px;
+    width: 70%;
+  }
+
+  .creator-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .creator-container img {
+    height: 80px;
+    margin-right: 0px;
+    width: 80px;
+  }
+
+  .creator-container h2 {
+    font-size: 25px;
+  }
+
+  .creator-container p {
+    font-size: 15px;
+  }
+}
